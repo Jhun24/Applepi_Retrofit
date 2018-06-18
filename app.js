@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var randomstring = require('ranomstring');
+var randomstring = require('randomstring');
 var mongoose = require('mongoose');
 var session = require('express-session');
 
