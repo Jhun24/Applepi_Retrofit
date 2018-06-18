@@ -6,7 +6,7 @@ function index(app) {
         var text = req.query.text;
 
         res.send({
-          data:"너가 보낸 텍스트 "+text
+          data:"너가 보낸 텍스트 : "+text
         })
     });
 
@@ -15,7 +15,7 @@ function index(app) {
         var text = req.body.text;
 
         res.send({
-            data:"너가 보낸 텍스트 "+text
+            data:"너가 보낸 텍스트 : "+text
         })
     });
 }
